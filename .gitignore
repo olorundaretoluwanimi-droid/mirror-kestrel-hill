@@ -1,0 +1,11 @@
+out/
+stills/
+stills_full/
+out_s*.jpg
+voices/*.wav
+voices/.cache/
+voices/_ai33/
+voices/_edge/
+audio/mix.flac
+*.mp4
+__pycache__/

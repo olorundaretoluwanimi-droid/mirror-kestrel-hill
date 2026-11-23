@@ -1,0 +1,35 @@
+WHAT IF YOUR MIRROR SHOWED YOU IN 10 YEARS? (KESTREL HILL) — third-party assets and licences
+
+Voices (all synthetic)
+  Narrator: ElevenLabs voice "Storyteller Oxley - Grandpa" (voice id 0dPqNXnhg2bmxQv1WKDp), generated through the
+    user's AI33 Pro subscription (api.ai33.pro). Use is governed by the user's ElevenLabs / AI33 terms.
+  Sam, Pip and Odile: Microsoft neural voices (en-US-ChristopherNeural, en-US-AnaNeural, en-IE-EmilyNeural) through
+    edge-tts (https://github.com/rany2/edge-tts, GPL-3.0 tool). Check Microsoft's terms before commercial use.
+  Speech check: faster-whisper (MIT), models base.en and small.en.
+
+Music (original score written for this film, rendered from these sample libraries)
+  VS Chamber Orchestra: Community Edition, Versilian Studios / Sam Gossner — CC0 1.0
+    (violins, solo violin, violas, cellos, contrabass — arco, tremolo, pizzicato; French horn, clarinet, oboe,
+    timpani, glockenspiel, suspended cymbal, tubular bells) — https://github.com/sgossner/VSCO-2-CE
+  Versilian Community Sample Library (VCSL) — CC0 1.0
+    (concert harp, recorder, glass harp, bowed vibraphone, frame drum) — https://github.com/sgossner/VCSL
+  FreePats project — CC0 (nylon guitar) — https://freepats.zenvoid.org
+
+Sound effects and ambience
+  Synthesised procedurally (numpy/scipy, Lemo-Opuscar core/audio/sfx.py) for this film. No recordings.
+
+Fonts (self-hosted)
+  Cinzel — The Cinzel Project Authors (Natanael Gama) — SIL Open Font License 1.1 (fonts/OFL-Cinzel.txt)
+  Cormorant Garamond — The Cormorant Project Authors (Christian Thalmann) — SIL Open Font License 1.1 (fonts/OFL-CormorantGaramond.txt)
+
+Software
+  three.js r170 — MIT License. Lemo-Opuscar library tools (render, sampler, sfx, mux).
+
+Pictures
+  Every image in the film (the town, the funicular, the flat, the engine house, the characters, snow, sky) is drawn
+  in code for this film. No photographs, footage, maps or generated images.
+
+Facts in the narration
+  Sources in FACTS.md.
+
+Kestrel Hill, Sam, Pip and Odile are invented.
