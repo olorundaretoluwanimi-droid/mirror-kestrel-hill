@@ -267,7 +267,7 @@ export function buildWorld() {
     if (id === 'board') { const k = ss(seg(u, .55, 1)); cam.position.set(lerp(0, 46, k), lerp(150, 70, k), lerp(-36, 30, k)); look.set(0, lerp(0, 14, k), lerp(-36.1, -30, k)); if (k > .02) cam.up.set(0, 1, 0); }
     // the climb follows Sam down the steps, the camera leading a little
     let samClimb = null;
-    if (id === 'climb') { const z = lerp(-LZ + 1.5, -36.5, ss(seg(t, sh.a + .4, sh.b - .6)) * .96 + seg(t, sh.a + .4, sh.b - .6) * .04); samClimb = V3(STEPX, yAt(z) + .12, z); cam.position.set(STEPX + 7.0, samClimb.y + 3.8, z + 4.6); look.set(STEPX - .6, samClimb.y + .8, z - 1.6); }
+    if (id === 'climb') { const z = lerp(-LZ + 1.5, -36.5, ss(seg(t, sh.a + .4, sh.b - .6)) * .96 + seg(t, sh.a + .4, sh.b - .6) * .04); samClimb = V3(STEPX, yAt(z) + .12, z); cam.position.set(STEPX + 7.0, samClimb.y + 3.8, z + 4.6); look.set(STEPX - .6, samClimb.y + .8, z - 1.6); if (t > sh.b - 7.5) { const kE = seg(t, sh.b - 7.5, sh.b); cam.position.copy(V3(8.6, 30.0, -29.4).lerp(V3(7.5, 29.0, -30.5), kE)); look.set(2.4, 25.6, -37.6); } }
     cam.lookAt(look);
     sunT.position.copy(look); sunT.position.y = 0;
 
